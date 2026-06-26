@@ -1,0 +1,236 @@
+[
+  {
+    "slug": "arthur-prates",
+    "nome": "Arthur Prates",
+    "iniciais": "AP",
+    "curso": "Engenharia Mecânica",
+    "intro": "Evolução em lógica de programação com Python, documentada atividade por atividade.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS",
+      "Git",
+      "IA"
+    ],
+    "url": "https://arthurpratesaluno-collab.github.io/arthurpratesaluno.github.io",
+    "status": "online"
+  },
+  {
+    "slug": "andressa-almada",
+    "nome": "Andressa Almada",
+    "iniciais": "AA",
+    "curso": "",
+    "intro": "Portfólio em formato de guia, ensinando fundamentos de Python com exemplos.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://andressaalmadaaluno-prog.github.io/portfolio-andressa./",
+    "status": "online"
+  },
+  {
+    "slug": "diogo",
+    "nome": "Diogo",
+    "iniciais": "DI",
+    "curso": "Engenharia de Telecomunicações",
+    "intro": "Portfólio da disciplina com atividades em Python, em construção.",
+    "tech": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "IA"
+    ],
+    "url": "https://sudodiogo.github.io",
+    "status": "online"
+  },
+  {
+    "slug": "erick-abella",
+    "nome": "Erick Abella",
+    "iniciais": "EA",
+    "curso": "Engenharia Elétrica",
+    "intro": "14 atividades de Algoritmos reunidas numa stack web moderna com Next.js.",
+    "tech": [
+      "Next.js",
+      "Tailwind",
+      "Vercel",
+      "Python",
+      "JavaScript"
+    ],
+    "url": "https://portifolio-erickabella.vercel.app",
+    "status": "online"
+  },
+  {
+    "slug": "fernando-dala",
+    "nome": "Fernando da Silva Dala",
+    "iniciais": "FD",
+    "curso": "",
+    "intro": "18 atividades concluídas da disciplina de Algoritmos e Programação.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://fernandodalaaluno-beep.github.io/algoritmos/",
+    "status": "online"
+  },
+  {
+    "slug": "gabriel-garcia",
+    "nome": "Gabriel Garcia",
+    "iniciais": "GG",
+    "curso": "",
+    "intro": "Portfólio semestral reunindo as atividades do curso, em fase inicial.",
+    "tech": [
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://gabrieldagaluno-sys.github.io",
+    "status": "online"
+  },
+  {
+    "slug": "henrique",
+    "nome": "Henrique",
+    "iniciais": "HE",
+    "curso": "",
+    "intro": "Exercícios e atividades de algoritmos, incluindo um simulador de movimento.",
+    "tech": [
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://henriquedsnaluno-dotcom.github.io/Portfolio/",
+    "status": "online"
+  },
+  {
+    "slug": "lorenzo-ximendes",
+    "nome": "Lorenzo Ximendes",
+    "iniciais": "LX",
+    "curso": "",
+    "intro": "Portfólio interativo com um terminal Python rodando no próprio navegador.",
+    "tech": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://github.com/lorenzoximendesaluno-dotcom/portifolio-de-algoritmos",
+    "status": "online"
+  },
+  {
+    "slug": "lucas-viana",
+    "nome": "Lucas Viana de Freitas",
+    "iniciais": "LV",
+    "curso": "",
+    "intro": "Portfólio acadêmico com 23 atividades de Algoritmos e Programação.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python"
+    ],
+    "url": "https://algoritimos2.github.io",
+    "status": "online"
+  },
+  {
+    "slug": "matheus-leal",
+    "nome": "Matheus Leal Peres",
+    "iniciais": "ML",
+    "curso": "",
+    "intro": "Painel de acompanhamento de atividades, com filtros de entregas e prazos.",
+    "tech": [
+      "JavaScript",
+      "SVG",
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://exoticos55.github.io",
+    "status": "online"
+  },
+  {
+    "slug": "pedro-amaral",
+    "nome": "Pedro Amaral",
+    "iniciais": "PA",
+    "curso": "",
+    "intro": "Portfólio acadêmico em montagem, organizando as entregas do semestre.",
+    "tech": [
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://portfoliopeamaral.github.io",
+    "status": "online"
+  },
+  {
+    "slug": "pedro-henrique",
+    "nome": "Pedro Henrique",
+    "iniciais": "PH",
+    "curso": "Engenharia Elétrica",
+    "intro": "Portfólio de algoritmos com foco na linguagem C.",
+    "tech": [
+      "C",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://pedrinhogang.github.io/pedrohaluno-github.io/",
+    "status": "online"
+  },
+  {
+    "slug": "vinicius-moletta",
+    "nome": "Vinícius Moletta",
+    "iniciais": "VM",
+    "curso": "",
+    "intro": "Jornada acadêmica 2026: 14 trabalhos da disciplina reunidos em repositório.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "url": "https://github.com/viniciusmolettaaluno-lang/jornada-academica-2026",
+    "status": "online"
+  },
+  {
+    "slug": "lista-trabalhos",
+    "nome": "Lista de Trabalhos",
+    "iniciais": "LT",
+    "curso": "",
+    "intro": "Atividades em Python com exercícios gerados e avaliados com apoio de IA.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS",
+      "IA"
+    ],
+    "url": "https://lista-do-meu-trabalho-da-disciplina.github.io/",
+    "status": "online"
+  },
+  {
+    "slug": "bernardo-bender",
+    "nome": "Bernardo Bender",
+    "iniciais": "BB",
+    "curso": "",
+    "intro": "Portfólio ainda não publicado (página retorna 404).",
+    "tech": [],
+    "url": "https://bernardobenderaluno-hue.github.io/atividadefinal/",
+    "status": "offline"
+  },
+  {
+    "slug": "kaua-santos",
+    "nome": "Kauã Santos",
+    "iniciais": "KS",
+    "curso": "",
+    "intro": "Espaço criado, conteúdo do portfólio ainda em construção.",
+    "tech": [],
+    "url": "https://kauasantosaluno-tech.github.io",
+    "status": "wip"
+  },
+  {
+    "slug": "portfolio-sem-id",
+    "nome": "Portfólio sem identificação",
+    "iniciais": "?",
+    "curso": "",
+    "intro": "Endereço da turma sem página publicada no momento (404).",
+    "tech": [],
+    "url": "https://algoritmos-e-programacao.github.io",
+    "status": "offline"
+  }
+]
