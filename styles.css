@@ -383,6 +383,97 @@ body {
   cursor: not-allowed;
 }
 
+/* ---- Sugestões de melhoria (por card) ---- */
+.card__sug {
+  margin-top: 4px;
+  border: 2px dashed rgba(31, 17, 71, 0.25);
+  border-radius: var(--radius);
+  background: #fbf7ff;
+}
+.card__sug > summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 11px 15px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--c-purple);
+}
+.card__sug > summary::-webkit-details-marker {
+  display: none;
+}
+.card__sug > summary::after {
+  content: "▾";
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  transition: transform 0.15s ease;
+}
+.card__sug[open] > summary::after {
+  transform: rotate(180deg);
+}
+.card__sug-count {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6f4bd8;
+  background: #ece2ff;
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-left: auto;
+}
+.card__sug-list {
+  margin: 0;
+  padding: 2px 18px 16px 34px;
+  display: grid;
+  gap: 8px;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.card__sug-list li {
+  line-height: 1.45;
+}
+.card__sug-list li::marker {
+  color: var(--c-pink);
+  font-weight: 800;
+}
+
+/* ---- Guia de boas práticas ---- */
+.guia {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+.guia__item {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: 5px 5px 0 var(--ink);
+}
+.guia__item:nth-child(3n+1) { border-top: 8px solid var(--c-pink); }
+.guia__item:nth-child(3n+2) { border-top: 8px solid var(--c-blue); }
+.guia__item:nth-child(3n+3) { border-top: 8px solid var(--c-teal); }
+.guia__name {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.08rem;
+  margin: 0 0 6px;
+  line-height: 1.2;
+}
+.guia__item p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+}
+
 /* ---- Seção de tecnologias ---- */
 .section--tech {
   margin-bottom: 24px;

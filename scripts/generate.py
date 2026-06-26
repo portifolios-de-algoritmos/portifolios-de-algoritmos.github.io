@@ -29,6 +29,12 @@ PORTFOLIOS = [
         "tech": ["Python", "HTML", "CSS", "Git", "IA"],
         "url": "https://arthurpratesaluno-collab.github.io/arthurpratesaluno.github.io",
         "status": "online",
+        "sugestoes": [
+            "Tirar o código de dentro dos PDFs do Google Drive: publicar os arquivos .py no repositório e exibi-los na página com realce de sintaxe.",
+            "Abrir a permissão de todos os links do Drive e do Docs para \"qualquer pessoa com o link\", evitando barreira de login para os tutores.",
+            "Transcrever a resolução feita em papel para código digital, mantendo a foto apenas como complemento.",
+            "Incluir o enunciado de cada atividade antes do link, para que um leitor não técnico entenda o problema sem abrir o anexo.",
+        ],
     },
     {
         "slug": "andressa-almada",
@@ -39,6 +45,12 @@ PORTFOLIOS = [
         "tech": ["Python", "HTML", "CSS"],
         "url": "https://andressaalmadaaluno-prog.github.io/portfolio-andressa./",
         "status": "online",
+        "sugestoes": [
+            "Transformar o site num portfólio de verdade: hoje é um tutorial genérico de Python, falta a seção \"Atividades\" com cada exercício e projeto entregues, com data e tema.",
+            "Publicar o código das próprias soluções (.py) e exibi-lo com realce de sintaxe, no lugar dos exemplos genéricos.",
+            "Para cada atividade, escrever o enunciado, a abordagem usada e o resultado.",
+            "Adicionar uma seção \"Sobre\" identificando a autora, o curso e o objetivo do portfólio.",
+        ],
     },
     {
         "slug": "diogo",
@@ -49,6 +61,12 @@ PORTFOLIOS = [
         "tech": ["Python", "JavaScript", "HTML", "CSS", "IA"],
         "url": "https://sudodiogo.github.io",
         "status": "online",
+        "sugestoes": [
+            "Corrigir os links quebrados da atividade p11: o projects.js aponta para arquivos .yf, mas no repositório eles são .py (v1.py a v4.py).",
+            "Converter as soluções que só existem em PDF em arquivos .py e exibi-las na página com realce de sintaxe.",
+            "Mostrar um conteúdo de reserva quando o JavaScript não carrega: hoje, se o projects.js falhar, a seção fica eternamente em \"carregando projetos...\".",
+            "Transcrever os exercícios feitos em papel (p08) para código digital, mantendo a foto como complemento.",
+        ],
     },
     {
         "slug": "erick-abella",
@@ -59,6 +77,12 @@ PORTFOLIOS = [
         "tech": ["Next.js", "Tailwind", "Vercel", "Python", "JavaScript"],
         "url": "https://portifolio-erickabella.vercel.app",
         "status": "online",
+        "sugestoes": [
+            "Publicar o código de cada atividade na própria página, com realce de sintaxe e botão de copiar: hoje o portfólio é bonito, mas não mostra uma única linha de código.",
+            "Tornar o conteúdo autossuficiente: incluir o enunciado completo e uma explicação da solução, sem depender do Google Classroom, que é fechado para visitantes.",
+            "Digitalizar e transcrever os exercícios feitos em papel, em vez de só apontar para o Classroom.",
+            "Adicionar link para o repositório com os arquivos .py de cada atividade.",
+        ],
     },
     {
         "slug": "fernando-dala",
@@ -69,6 +93,12 @@ PORTFOLIOS = [
         "tech": ["Python", "HTML", "CSS"],
         "url": "https://fernandodalaaluno-beep.github.io/algoritmos/",
         "status": "online",
+        "sugestoes": [
+            "Corrigir os links quebrados com urgência: todos os botões \"Pasta da Tarefa\" retornam 404 (falta um index.html dentro de cada pasta), então o site inteiro está inacessível, mesmo parecendo completo.",
+            "Eliminar os arquivos ZIP: descompactar e publicar o código como arquivos .py legíveis, em vez de forçar o avaliador a baixar e extrair.",
+            "Tirar o código de dentro dos PDFs e apresentá-lo como texto copiável com realce de sintaxe.",
+            "Adicionar a cada tarefa o enunciado e uma breve explicação da solução.",
+        ],
     },
     {
         "slug": "gabriel-garcia",
@@ -79,6 +109,12 @@ PORTFOLIOS = [
         "tech": ["HTML", "CSS"],
         "url": "https://gabrieldagaluno-sys.github.io",
         "status": "online",
+        "sugestoes": [
+            "Corrigir o bug de dados: as páginas de detalhe mostram \"Atividade undefined\" porque o atividades.json não tem os campos numero, descricao e classroom usados por atividade.html.",
+            "Publicar o código de cada atividade com realce de sintaxe: hoje o portfólio de uma disciplina de Python não exibe nenhuma linha de código.",
+            "Adicionar enunciado e explicação por atividade, com a entrega correspondente (código .py, foto transcrita ou relato).",
+            "Ajustar a identidade (os selos \"HTML & CSS / Web Dev\" não condizem com Python) e remover o admin.html exposto publicamente.",
+        ],
     },
     {
         "slug": "henrique",
@@ -89,16 +125,28 @@ PORTFOLIOS = [
         "tech": ["HTML", "CSS"],
         "url": "https://henriquedsnaluno-dotcom.github.io/Portfolio/",
         "status": "online",
+        "sugestoes": [
+            "Corrigir os links quebrados: as duas atividades retornam 404 (as pastas Atividade1 e Atividade2 não existem), então 100% do conteúdo está inacessível hoje.",
+            "Publicar o código como texto copiável com realce de sintaxe (a fonte Fira Code já está carregada na página).",
+            "Adicionar o enunciado e uma explicação de cada atividade, mais um link para o repositório com os .py.",
+            "Completar o portfólio com todas as atividades do semestre e uma seção \"Sobre\".",
+        ],
     },
     {
         "slug": "lorenzo-ximendes",
         "nome": "Lorenzo Ximendes",
         "iniciais": "LX",
-        "curso": "",
-        "intro": "Portfólio interativo com um terminal Python rodando no próprio navegador.",
+        "curso": "Engenharia Mecânica",
+        "intro": "Painel com 11 atividades concluídas, cada uma com problema, abordagem e entregáveis.",
         "tech": ["JavaScript", "Python", "HTML", "CSS"],
-        "url": "https://github.com/lorenzoximendesaluno-dotcom/portifolio-de-algoritmos",
+        "url": "https://lorenzoximendesaluno-dotcom.github.io/portifolio-de-algoritmos/",
         "status": "online",
+        "sugestoes": [
+            "Tirar o código de dentro dos PDFs (muitas pastas só têm index.pdf) e publicá-lo como .py, exibindo-o no site com realce de sintaxe.",
+            "Criar um README.md na raiz do repositório com nome, disciplina, índice das atividades e o link do site publicado.",
+            "Transcrever os exercícios fotografados (pasta exercicios-em-papel) para arquivos .py, mantendo as fotos como registro do raciocínio.",
+            "Padronizar nomes de arquivos e pastas (evitar espaços, parênteses e acentos) e consolidar portal-alegrete e portal-alegrete-novo em uma única versão.",
+        ],
     },
     {
         "slug": "lucas-viana",
@@ -109,6 +157,12 @@ PORTFOLIOS = [
         "tech": ["HTML", "CSS", "JavaScript", "Python"],
         "url": "https://algoritimos2.github.io",
         "status": "online",
+        "sugestoes": [
+            "Substituir os PDFs de código por arquivos .py e exibir o código na página com realce de sintaxe (a fonte DM Mono já está carregada).",
+            "Adicionar o enunciado de cada atividade num trecho expansível (\"o que foi pedido\" e \"o que eu fiz\").",
+            "Concluir as 4 atividades pendentes e revisar os itens marcados como \"Em andamento\".",
+            "Transformar os conjuntos de imagens (A12, A21) em uma galeria com legendas e transcrever para .py o que está apenas fotografado (A08).",
+        ],
     },
     {
         "slug": "matheus-leal",
@@ -119,6 +173,12 @@ PORTFOLIOS = [
         "tech": ["JavaScript", "SVG", "Python", "HTML", "CSS"],
         "url": "https://exoticos55.github.io",
         "status": "online",
+        "sugestoes": [
+            "Tirar o código dos PDFs e da dupla extensão \".png.pdf\": subir cada código como .py (o site já o exibe como texto) e cada imagem como .png ou .jpg.",
+            "Transcrever as resoluções feitas em papel (as fotos) para código digital, mantendo a foto como evidência ao lado.",
+            "Adicionar um campo \"Enunciado\" em texto no próprio cartão, sem depender dos links do Google Classroom, que exigem login.",
+            "Aplicar realce de sintaxe ao visualizador de código que o site já possui.",
+        ],
     },
     {
         "slug": "pedro-amaral",
@@ -129,6 +189,12 @@ PORTFOLIOS = [
         "tech": ["HTML", "CSS"],
         "url": "https://portfoliopeamaral.github.io",
         "status": "online",
+        "sugestoes": [
+            "Preencher o conteúdo real: hoje os três cartões são placeholders do template (\"[Nome da Atividade]\") e o link \"entregas/trabalho1.pdf\" está quebrado.",
+            "Listar todas as entregas do semestre, uma por atividade.",
+            "Publicar o código como .py no repositório e/ou em bloco de código na página, em vez de depender de PDF e Drive.",
+            "Adicionar enunciado e explicação acessível por atividade, e identificar o autor (nome, curso, contato) na seção \"Sobre\".",
+        ],
     },
     {
         "slug": "pedro-henrique",
@@ -139,16 +205,28 @@ PORTFOLIOS = [
         "tech": ["C", "HTML", "CSS"],
         "url": "https://pedrinhogang.github.io/pedrohaluno-github.io/",
         "status": "online",
+        "sugestoes": [
+            "Cadastrar os trabalhos que faltam: o array projects tem só 1 item, mas a página anuncia 12 trabalhos e 4 projetos finais, e os filtros ficam vazios.",
+            "Corrigir ou remover o botão \"Ver Código\": o campo githubUrl está vazio, então o botão abre uma página em branco.",
+            "Ajustar as estatísticas para refletir o conteúdo real enquanto os trabalhos não são adicionados.",
+            "Aplicar realce de sintaxe ao bloco de código C do modal, que hoje é texto cru.",
+        ],
     },
     {
         "slug": "vinicius-moletta",
         "nome": "Vinícius Moletta",
         "iniciais": "VM",
-        "curso": "",
-        "intro": "Jornada acadêmica 2026: 14 trabalhos da disciplina reunidos em repositório.",
-        "tech": ["HTML", "CSS", "JavaScript"],
-        "url": "https://github.com/viniciusmolettaaluno-lang/jornada-academica-2026",
+        "curso": "Engenharia Elétrica",
+        "intro": "Jornada acadêmica 2026: 14 trabalhos com enunciado, código copiável e saída esperada.",
+        "tech": ["HTML", "CSS", "JavaScript", "Python"],
+        "url": "https://viniciusmolettaaluno-lang.github.io/jornada-academica-2026/",
         "status": "online",
+        "sugestoes": [
+            "Eliminar o código em PDF: substituir os arquivos codigo*.pdf por .py reais, reservando o PDF apenas para relatórios e enunciados.",
+            "Adicionar um README.md na raiz com nome, disciplina, link do site e índice dos 14 trabalhos.",
+            "Aplicar realce de sintaxe aos blocos de código, mantendo o botão \"Copiar\" que já funciona bem.",
+            "Corrigir ou remover os links \"Ver no Google Colab\" (sem URL real), transcrever o conteúdo de fotostrabalho05.pdf e renomear a pasta \"algoritimos\" para \"algoritmos\".",
+        ],
     },
     {
         "slug": "lista-trabalhos",
@@ -159,6 +237,12 @@ PORTFOLIOS = [
         "tech": ["Python", "HTML", "CSS", "IA"],
         "url": "https://lista-do-meu-trabalho-da-disciplina.github.io/",
         "status": "online",
+        "sugestoes": [
+            "Trazer o código para dentro do site (blocos copiáveis ou arquivos .py versionados), em vez de depender 100% do Google Drive.",
+            "Conferir e padronizar a permissão de todos os links do Drive para \"qualquer pessoa com o link\", para o professor e os 6 tutores não baterem em acesso negado.",
+            "Preencher os campos \"COLOCAR_AQUI\" (link do repositório, URL publicada e hash do commit), que hoje sinalizam entrega inacabada.",
+            "Transcrever os \"5 exercícios em papel\" e, se mantiver as fotos, exibi-las como galeria na própria página.",
+        ],
     },
     {
         "slug": "bernardo-bender",
@@ -169,6 +253,10 @@ PORTFOLIOS = [
         "tech": [],
         "url": "https://bernardobenderaluno-hue.github.io/atividadefinal/",
         "status": "offline",
+        "sugestoes": [
+            "Publicar a página: o endereço retorna 404. Conferir se o GitHub Pages está ativo e se há um index.html na branch correta.",
+            "Depois de publicar, montar a estrutura mínima: lista de atividades, código em .py exibido na página e uma seção \"Sobre\".",
+        ],
     },
     {
         "slug": "kaua-santos",
@@ -179,6 +267,12 @@ PORTFOLIOS = [
         "tech": [],
         "url": "https://kauasantosaluno-tech.github.io",
         "status": "wip",
+        "sugestoes": [
+            "Personalizar a identidade: o template ainda se identifica como \"Diogo / Engenharia de Telecomunicações\"; trocar pelo nome e curso do Kauã.",
+            "Substituir os links \"#\" por conteúdo real, começando por uma atividade já feita: publicar o .py e exibir o código em bloco copiável.",
+            "Corrigir o erro de sintaxe no trecho sobre_mim.py (self] no lugar de self.), que aparece logo na vitrine.",
+            "Escrever um enunciado curto para cada projeto e adicionar um README com status honesto de \"em construção\".",
+        ],
     },
     {
         "slug": "portfolio-sem-id",
@@ -189,6 +283,9 @@ PORTFOLIOS = [
         "tech": [],
         "url": "https://algoritmos-e-programacao.github.io",
         "status": "offline",
+        "sugestoes": [
+            "Endereço sem página publicada (404): identificar o responsável e publicar o conteúdo, ou retirar este endereço da lista da turma.",
+        ],
     },
 ]
 
@@ -322,6 +419,20 @@ def tech_chips(tech):
     return f'<ul class="chips">{items}</ul>'
 
 
+def suggestions_block(p):
+    sugestoes = p.get("sugestoes") or []
+    if not sugestoes:
+        return ""
+    n = len(sugestoes)
+    rotulo = "sugestão" if n == 1 else "sugestões"
+    items = "".join(f"<li>{esc_html(s)}</li>" for s in sugestoes)
+    return f"""
+          <details class="card__sug">
+            <summary>Como melhorar <span class="card__sug-count">{n} {rotulo}</span></summary>
+            <ol class="card__sug-list">{items}</ol>
+          </details>"""
+
+
 def card(p):
     is_repo = "github.com" in p["url"]
     if p["status"] == "offline":
@@ -357,6 +468,7 @@ def card(p):
           <p class="card__intro">{esc_html(p['intro'])}</p>
           {tech_chips(p['tech'])}
           {action}
+          {suggestions_block(p)}
         </div>
       </article>"""
 
@@ -410,7 +522,8 @@ def build():
     <h1 class="hero__title">Mural de Portfólios da Turma</h1>
     <p class="hero__lead">
       Ao longo do semestre, cada aluno foi desafiado a transformar suas entregas em um
-      portfólio próprio. Esta página reúne e apresenta todos eles, num só lugar.
+      portfólio próprio. Esta página reúne e apresenta todos eles, num só lugar. Cada card
+      traz também sugestões concretas de melhoria, abertas no botão <strong>Como melhorar</strong>.
     </p>
     <p class="hero__actions">
       <a class="hero__cta" href="https://algoritmos4all.github.io" target="_blank" rel="noopener">
@@ -430,6 +543,50 @@ def build():
       <div class="grid">
 {cards_html}
       </div>
+    </section>
+
+    <section class="section section--guia" aria-labelledby="guia-title">
+      <h2 id="guia-title" class="section__title">Como deixar seu portfólio melhor</h2>
+      <p class="section__lead">
+        Quem visita estes portfólios não é só o professor: são também os 6 tutores da disciplina
+        e pessoas de formações variadas, muitas sem nenhuma vivência em programação. Um bom
+        portfólio precisa ser entendido por todos eles, sem exigir login, download ou conhecimento
+        prévio. Os pontos abaixo resumem o que mais aparece nas sugestões de cada card.
+      </p>
+      <ul class="guia">
+        <li class="guia__item">
+          <h3 class="guia__name">Código é texto, não imagem</h3>
+          <p>Mostre o código na própria página, em bloco copiável e com realce de sintaxe. Evite código preso em PDF, em ZIP ou em foto: ninguém consegue copiar, executar ou revisar.</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Versione os .py no repositório</h3>
+          <p>Cada solução deve existir como arquivo .py no GitHub. O PDF fica reservado para o que é mesmo documento: relatórios, enunciados e reflexões.</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Nada de muros de login</h3>
+          <p>Conteúdo no Google Classroom ou no Drive fechado é invisível para tutores e visitantes. Traga o material para o site ou libere o acesso como \"qualquer pessoa com o link\".</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Conte o que era o problema</h3>
+          <p>Para cada atividade, escreva o enunciado, a ideia da solução e o resultado. Assim um leitor não técnico entende o trabalho sem precisar ler o código.</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Papel também vira código</h3>
+          <p>Exercícios feitos à mão podem entrar como foto, mas transcreva a solução para .py ou pseudocódigo digital. A foto é o registro do raciocínio, não a entrega final.</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Imagens em galeria, com legenda</h3>
+          <p>Telas de execução e saídas do programa ajudam quem não vai rodar o código. Agrupe-as numa galeria e explique em uma linha o que cada imagem mostra.</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Teste cada link antes de entregar</h3>
+          <p>Botão que leva a 404, página de detalhe vazia ou \"Ver código\" sem destino derrubam um portfólio que parecia pronto. Clique em tudo antes de considerar concluído.</p>
+        </li>
+        <li class="guia__item">
+          <h3 class="guia__name">Sem placeholder de template</h3>
+          <p>Troque os textos de exemplo (\"[Nome da Atividade]\", nome de outra pessoa, estatísticas que não batem) por conteúdo real. Identifique-se: nome, curso e objetivo.</p>
+        </li>
+      </ul>
     </section>
 
     <section class="section section--tech" aria-labelledby="tech-title">
