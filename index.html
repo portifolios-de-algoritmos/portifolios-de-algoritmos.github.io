@@ -7,10 +7,16 @@
   <meta name="description" content="Mural dos portfólios criados pelos alunos da disciplina de Algoritmos e Programação."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="bg-blob bg-blob--1"></span>
+    <span class="bg-blob bg-blob--2"></span>
+    <span class="bg-blob bg-blob--3"></span>
+  </div>
+
   <header class="hero">
     <p class="hero__eyebrow">Disciplina de Algoritmos e Programação</p>
     <h1 class="hero__title">Mural de Portfólios da Turma</h1>
@@ -52,7 +58,7 @@
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Tirar o código de dentro dos PDFs do Google Drive: publicar os arquivos .py no repositório e exibi-los na página com realce de sintaxe.</li><li>Abrir a permissão de todos os links do Drive e do Docs para &quot;qualquer pessoa com o link&quot;, evitando barreira de login para os tutores.</li><li>Transcrever a resolução feita em papel para código digital, mantendo a foto apenas como complemento.</li><li>Incluir o enunciado de cada atividade antes do link, para que um leitor não técnico entenda o problema sem abrir o anexo.</li></ol>
+            <ol class="card__sug-list"><li>Abrir a permissão de todos os links do Drive e do Docs para &quot;qualquer pessoa com o link&quot;: hoje vários abrem só com login (erro 401) e barram os tutores.</li><li>Publicar os arquivos .py reais no repositório e exibi-los na página: o único código mostrado hoje é um exemplo ilustrativo (a classe Motor), não as soluções entregues.</li><li>Confirmar que a transcrição digital dos exercícios em papel está acessível, de preferência como .py versionado, e não como PDF fechado no Drive.</li><li>Preencher o README.md (hoje vazio) com nome, curso, objetivo do portfólio e link do site.</li></ol>
           </details>
         </div>
       </article>
@@ -72,8 +78,8 @@
           <a class="btn" href="https://andressaalmadaaluno-prog.github.io/portfolio-andressa./" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Transformar o site num portfólio de verdade: hoje é um tutorial genérico de Python, falta a seção &quot;Atividades&quot; com cada exercício e projeto entregues, com data e tema.</li><li>Publicar o código das próprias soluções (.py) e exibi-lo com realce de sintaxe, no lugar dos exemplos genéricos.</li><li>Para cada atividade, escrever o enunciado, a abordagem usada e o resultado.</li><li>Adicionar uma seção &quot;Sobre&quot; identificando a autora, o curso e o objetivo do portfólio.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">5 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Transformar o site num portfólio de verdade: a página publicada ainda é um tutorial genérico de Python, falta a seção &quot;Atividades&quot; com cada exercício e projeto entregues, com data e tema.</li><li>Publicar o código das próprias soluções (.py) no repositório e exibi-lo com realce de sintaxe, no lugar dos exemplos genéricos. Criar a pasta entregas/, pois os links de código previstos hoje levariam a 404.</li><li>Para cada atividade, escrever o enunciado, a abordagem usada e o resultado.</li><li>Adicionar uma seção &quot;Sobre&quot; identificando a autora, o curso e o objetivo do portfólio.</li><li>Consolidar o trabalho num único repositório/site e apontar o link do mural para essa versão, evitando a dispersão atual em vários repositórios.</li></ol>
           </details>
         </div>
       </article>
@@ -88,13 +94,13 @@
             <h3 class="card__name">Diogo</h3>
             <span class="course">Engenharia de Telecomunicações</span>
           </header>
-          <p class="card__intro">Portfólio da disciplina com atividades em Python, em construção.</p>
+          <p class="card__intro">24 atividades em Python num visualizador próprio, com realce de sintaxe e modal de arquivos.</p>
           <ul class="chips"><li class="chip" data-tech="Python">Python</li><li class="chip" data-tech="JavaScript">JavaScript</li><li class="chip" data-tech="HTML">HTML</li><li class="chip" data-tech="CSS">CSS</li><li class="chip" data-tech="IA">IA</li></ul>
           <a class="btn" href="https://sudodiogo.github.io" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Corrigir os links quebrados da atividade p11: o projects.js aponta para arquivos .yf, mas no repositório eles são .py (v1.py a v4.py).</li><li>Converter as soluções que só existem em PDF em arquivos .py e exibi-las na página com realce de sintaxe.</li><li>Mostrar um conteúdo de reserva quando o JavaScript não carrega: hoje, se o projects.js falhar, a seção fica eternamente em &quot;carregando projetos...&quot;.</li><li>Transcrever os exercícios feitos em papel (p08) para código digital, mantendo a foto como complemento.</li></ol>
+            <ol class="card__sug-list"><li>Corrigir a atividade p24 (Projeto Final): os arquivos de relatório, print e hash dão 404; adicionar os arquivos ou ajustar os caminhos no projects.js e alinhar rótulo e extensão do print (.png x .pdf).</li><li>Adicionar conteúdo de reserva sem JavaScript (um &lt;noscript&gt; e tratamento de erro no carregamento do projects.js), para a seção não ficar presa em &quot;carregando projetos...&quot;.</li><li>Concluir a conversão das listas ainda em PDF (p04, p05, p06, p10, p12, p13, p14) para .py exibidos no visualizador com realce, que já existe.</li><li>Transcrever os exercícios em papel (p08) para .py ou texto, mantendo o PDF como complemento.</li></ol>
           </details>
         </div>
       </article>
@@ -115,7 +121,7 @@
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Publicar o código de cada atividade na própria página, com realce de sintaxe e botão de copiar: hoje o portfólio é bonito, mas não mostra uma única linha de código.</li><li>Tornar o conteúdo autossuficiente: incluir o enunciado completo e uma explicação da solução, sem depender do Google Classroom, que é fechado para visitantes.</li><li>Digitalizar e transcrever os exercícios feitos em papel, em vez de só apontar para o Classroom.</li><li>Adicionar link para o repositório com os arquivos .py de cada atividade.</li></ol>
+            <ol class="card__sug-list"><li>Corrigir o link de repositório quebrado no rodapé: aponta para /portfolio (404); o endereço correto é /portifolio.</li><li>Adicionar um botão de copiar nos blocos de código: o realce de sintaxe já está pronto, falta a cópia para a área de transferência.</li><li>Preencher o link do repositório por atividade, apontando para os .py correspondentes (os projetos de engenharia já têm repositórios próprios), em vez de só o link único do site.</li><li>Corrigir o idioma da atividade &quot;gerar versões de código&quot;, cujo enunciado da versão em português está em inglês.</li></ol>
           </details>
         </div>
       </article>
@@ -135,8 +141,8 @@
           <a class="btn" href="https://fernandodalaaluno-beep.github.io/algoritmos/" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Corrigir os links quebrados com urgência: todos os botões &quot;Pasta da Tarefa&quot; retornam 404 (falta um index.html dentro de cada pasta), então o site inteiro está inacessível, mesmo parecendo completo.</li><li>Eliminar os arquivos ZIP: descompactar e publicar o código como arquivos .py legíveis, em vez de forçar o avaliador a baixar e extrair.</li><li>Tirar o código de dentro dos PDFs e apresentá-lo como texto copiável com realce de sintaxe.</li><li>Adicionar a cada tarefa o enunciado e uma breve explicação da solução.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">3 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Corrigir com urgência os botões das tarefas 05 a 18: hoje apontam para pastas sem index.html e retornam 404 (14 das 18 tarefas inacessíveis); apontar cada um para um arquivo real, como já acontece nas tarefas 01 a 04.</li><li>Exibir no site os arquivos .py que já estão no repositório, como texto com realce de sintaxe, em vez de manter o código só em PDF.</li><li>Em cada tarefa, acrescentar o enunciado e uma breve explicação da solução, além da frase-resumo atual.</li></ol>
           </details>
         </div>
       </article>
@@ -157,7 +163,7 @@
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Corrigir o bug de dados: as páginas de detalhe mostram &quot;Atividade undefined&quot; porque o atividades.json não tem os campos numero, descricao e classroom usados por atividade.html.</li><li>Publicar o código de cada atividade com realce de sintaxe: hoje o portfólio de uma disciplina de Python não exibe nenhuma linha de código.</li><li>Adicionar enunciado e explicação por atividade, com a entrega correspondente (código .py, foto transcrita ou relato).</li><li>Ajustar a identidade (os selos &quot;HTML &amp; CSS / Web Dev&quot; não condizem com Python) e remover o admin.html exposto publicamente.</li></ol>
+            <ol class="card__sug-list"><li>Proteger a renderização contra descricao indefinida (atividade.descricao || &#x27;&#x27;): hoje 22 das 23 páginas de detalhe quebram a descrição por falta desse campo.</li><li>Preencher a descrição de verdade nas atividades (enunciado, explicação e o código em bloco com realce), começando por substituir o texto de teste da atividade 1, aproveitando o highlight.js já integrado.</li><li>Remover ou proteger o admin.html, hoje público; se mantido, atualizá-lo para os campos atuais (titulo/descricao/pdf).</li><li>Ajustar a identidade: trocar &quot;Projetos&quot; e &quot;Desenvolvimento Web&quot; por algo condizente com Algoritmos e Programação (Python).</li></ol>
           </details>
         </div>
       </article>
@@ -178,7 +184,7 @@
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Corrigir os links quebrados: as duas atividades retornam 404 (as pastas Atividade1 e Atividade2 não existem), então 100% do conteúdo está inacessível hoje.</li><li>Publicar o código como texto copiável com realce de sintaxe (a fonte Fira Code já está carregada na página).</li><li>Adicionar o enunciado e uma explicação de cada atividade, mais um link para o repositório com os .py.</li><li>Completar o portfólio com todas as atividades do semestre e uma seção &quot;Sobre&quot;.</li></ol>
+            <ol class="card__sug-list"><li>Ligar o card &quot;Atividade 01&quot; à página local que já existe (Atividade1/index.html), em vez de um Google Docs que exige login (401).</li><li>Padronizar nomes de pasta sem espaços e alinhar os links da grade: os exercícios 6 e 7 têm pasta com espaço no nome (404) e os exercícios 8 a 10 não existem.</li><li>Transformar as subpáginas de exercício em conteúdo real (um exercício por página), em vez de cópias da grade de atividades.</li><li>Mostrar o código com realce de sintaxe de verdade e disponibilizar os .py no repositório, com enunciado e explicação por exercício; criar uma seção &quot;Sobre&quot;.</li></ol>
           </details>
         </div>
       </article>
@@ -198,8 +204,8 @@
           <a class="btn" href="https://lorenzoximendesaluno-dotcom.github.io/portifolio-de-algoritmos/" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Tirar o código de dentro dos PDFs (muitas pastas só têm index.pdf) e publicá-lo como .py, exibindo-o no site com realce de sintaxe.</li><li>Criar um README.md na raiz do repositório com nome, disciplina, índice das atividades e o link do site publicado.</li><li>Transcrever os exercícios fotografados (pasta exercicios-em-papel) para arquivos .py, mantendo as fotos como registro do raciocínio.</li><li>Padronizar nomes de arquivos e pastas (evitar espaços, parênteses e acentos) e consolidar portal-alegrete e portal-alegrete-novo em uma única versão.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">5 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Sincronizar os links do index.html com os nomes reais dos arquivos (renomeados com underscore): muitos hoje dão 404. Ao renomear no repositório, atualizar sempre o index.html.</li><li>Linkar os .py que já existem mas estão ocultos (problema-1, problema-2, simulador) e corrigir ou remover o link evolucao-tecnica/app.py, que aponta para arquivo inexistente.</li><li>Continuar tirando o código dos PDFs: onde a pasta só tem PDF, publicar o .py e exibi-lo com o realce de sintaxe que já está configurado (Prism.js).</li><li>Criar um README.md na raiz com nome, disciplina, índice das atividades e o link do site publicado.</li><li>Eliminar a pasta duplicada &quot;modularização&quot; (acentuada) e unificar portal-alegrete e portal-alegrete-novo em uma única versão.</li></ol>
           </details>
         </div>
       </article>
@@ -219,8 +225,8 @@
           <a class="btn" href="https://algoritimos2.github.io" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Substituir os PDFs de código por arquivos .py e exibir o código na página com realce de sintaxe (a fonte DM Mono já está carregada).</li><li>Adicionar o enunciado de cada atividade num trecho expansível (&quot;o que foi pedido&quot; e &quot;o que eu fiz&quot;).</li><li>Concluir as 4 atividades pendentes e revisar os itens marcados como &quot;Em andamento&quot;.</li><li>Transformar os conjuntos de imagens (A12, A21) em uma galeria com legendas e transcrever para .py o que está apenas fotografado (A08).</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">5 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Converter A08 e A10 de .heic para .jpg/.png: hoje essas evidências não abrem no navegador (o próprio site só oferece download).</li><li>Aplicar realce de sintaxe ao visualizador de código que já existe (o código entra em &lt;pre&gt; puro, sem coloração).</li><li>Converter as listas de exercícios de Python ainda em PDF (A05, A09) para .py exibido como texto.</li><li>Adicionar a cada cartão um trecho de enunciado (&quot;o que foi pedido&quot;) e uma frase de &quot;o que eu fiz&quot;.</li><li>Transformar A12 e A21 em galeria com legendas e acertar a inconsistência da trilha de progresso (final entregue x itens ainda &quot;em andamento&quot;).</li></ol>
           </details>
         </div>
       </article>
@@ -241,7 +247,7 @@
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Tirar o código dos PDFs e da dupla extensão &quot;.png.pdf&quot;: subir cada código como .py (o site já o exibe como texto) e cada imagem como .png ou .jpg.</li><li>Transcrever as resoluções feitas em papel (as fotos) para código digital, mantendo a foto como evidência ao lado.</li><li>Adicionar um campo &quot;Enunciado&quot; em texto no próprio cartão, sem depender dos links do Google Classroom, que exigem login.</li><li>Aplicar realce de sintaxe ao visualizador de código que o site já possui.</li></ol>
+            <ol class="card__sug-list"><li>Converter as listas de Python ainda em PDF (A02, A03, A07) para .py exibido com realce, que o site já suporta muito bem.</li><li>Trocar os .docx da A04 por formato visualizável (.py, .md ou PDF), pois .docx não abre dentro do modal.</li><li>Transcrever a A06 (5 exercícios em papel) para .py, mantendo as fotos ao lado, como já feito na atividade de vetores/listas.</li><li>Corrigir a tecnologia &quot;cahtgpt&quot; (digitação trocada) para &quot;chatgpt&quot;.</li></ol>
           </details>
         </div>
       </article>
@@ -261,8 +267,8 @@
           <a class="btn" href="https://portfoliopeamaral.github.io" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Preencher o conteúdo real: hoje os três cartões são placeholders do template (&quot;[Nome da Atividade]&quot;) e o link &quot;entregas/trabalho1.pdf&quot; está quebrado.</li><li>Listar todas as entregas do semestre, uma por atividade.</li><li>Publicar o código como .py no repositório e/ou em bloco de código na página, em vez de depender de PDF e Drive.</li><li>Adicionar enunciado e explicação acessível por atividade, e identificar o autor (nome, curso, contato) na seção &quot;Sobre&quot;.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">5 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Substituir os textos de marcador dos três cartões (&quot;[Nome da Atividade]&quot;) por títulos e descrições reais, começando pelo cartão 1, cujo PDF já está no ar.</li><li>Trocar os links de exemplo dos cartões 2 e 3 por entregas reais, ou remover os cartões enquanto não houver conteúdo.</li><li>Listar uma entrega por atividade do semestre, ampliando o catálogo além de um único arquivo.</li><li>Publicar o código como .py no repositório e/ou em bloco de código na página, sem depender só de PDF.</li><li>Preencher a seção &quot;Sobre&quot; com nome, curso e contato do autor, e adicionar enunciado por atividade.</li></ol>
           </details>
         </div>
       </article>
@@ -283,7 +289,7 @@
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Cadastrar os trabalhos que faltam: o array projects tem só 1 item, mas a página anuncia 12 trabalhos e 4 projetos finais, e os filtros ficam vazios.</li><li>Corrigir ou remover o botão &quot;Ver Código&quot;: o campo githubUrl está vazio, então o botão abre uma página em branco.</li><li>Ajustar as estatísticas para refletir o conteúdo real enquanto os trabalhos não são adicionados.</li><li>Aplicar realce de sintaxe ao bloco de código C do modal, que hoje é texto cru.</li></ol>
+            <ol class="card__sug-list"><li>Corrigir o caminho dos 7 links de PDF para a pasta arquivos/: hoje todos os botões &quot;Abrir Documento PDF&quot; apontam para a raiz e retornam 404, deixando o portfólio sem nenhum documento acessível.</li><li>Acertar o link do item 2 (arquivo inexistente) e renomear os PDFs &quot;Documento sem título&quot; para nomes que identifiquem a atividade.</li><li>Alinhar as etiquetas de tecnologia ao conteúdo real (C, Python) e corrigir &quot;Ponde&quot; para &quot;Ponte de Wheatstone&quot;.</li><li>Reapresentar código C na página (bloco com realce ou link para .c), reforçando o foco na linguagem, e continuar cadastrando trabalhos até cobrir o semestre.</li></ol>
           </details>
         </div>
       </article>
@@ -298,21 +304,21 @@
             <h3 class="card__name">Vinícius Moletta</h3>
             <span class="course">Engenharia Elétrica</span>
           </header>
-          <p class="card__intro">Jornada acadêmica 2026: 14 trabalhos com enunciado, código copiável e saída esperada.</p>
+          <p class="card__intro">Jornada acadêmica 2026: 15 trabalhos com enunciado, código realçado e copiável e saída esperada.</p>
           <ul class="chips"><li class="chip" data-tech="HTML">HTML</li><li class="chip" data-tech="CSS">CSS</li><li class="chip" data-tech="JavaScript">JavaScript</li><li class="chip" data-tech="Python">Python</li></ul>
           <a class="btn" href="https://viniciusmolettaaluno-lang.github.io/jornada-academica-2026/" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Eliminar o código em PDF: substituir os arquivos codigo*.pdf por .py reais, reservando o PDF apenas para relatórios e enunciados.</li><li>Adicionar um README.md na raiz com nome, disciplina, link do site e índice dos 14 trabalhos.</li><li>Aplicar realce de sintaxe aos blocos de código, mantendo o botão &quot;Copiar&quot; que já funciona bem.</li><li>Corrigir ou remover os links &quot;Ver no Google Colab&quot; (sem URL real), transcrever o conteúdo de fotostrabalho05.pdf e renomear a pasta &quot;algoritimos&quot; para &quot;algoritmos&quot;.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">5 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Versionar o código de cada trabalho como .py no repositório (e/ou exibir o código completo na página): hoje o bloco realçado traz só um trecho de exemplo, e o código inteiro segue só nos codigo*.pdf.</li><li>Criar um README.md na raiz com nome, disciplina, link do site e índice dos 15 trabalhos.</li><li>Renomear a pasta trabalhos/algoritimos para trabalhos/algoritmos, corrigindo os links.</li><li>Transcrever o conteúdo de fotostrabalho05.pdf para o trabalho5.html, mantendo as fotos como apoio.</li><li>Ajustar a mensagem de fallback do botão &quot;Copiar&quot; para aparecer apenas em caso de erro (hoje surge mesmo quando a cópia dá certo).</li></ol>
           </details>
         </div>
       </article>
 
-      <article class="card card--online">
+      <article class="card card--wip">
         <div class="card__cover">
           <img src="images/lista-trabalhos.svg" alt="Capa do portfólio de Lista de Trabalhos" loading="lazy" width="640" height="400"/>
-          <span class="badge badge--online">No ar</span>
+          <span class="badge badge--wip">Em construção</span>
         </div>
         <div class="card__body">
           <header class="card__head">
@@ -324,50 +330,50 @@
           <a class="btn" href="https://lista-do-meu-trabalho-da-disciplina.github.io/" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Trazer o código para dentro do site (blocos copiáveis ou arquivos .py versionados), em vez de depender 100% do Google Drive.</li><li>Conferir e padronizar a permissão de todos os links do Drive para &quot;qualquer pessoa com o link&quot;, para o professor e os 6 tutores não baterem em acesso negado.</li><li>Preencher os campos &quot;COLOCAR_AQUI&quot; (link do repositório, URL publicada e hash do commit), que hoje sinalizam entrega inacabada.</li><li>Transcrever os &quot;5 exercícios em papel&quot; e, se mantiver as fotos, exibi-las como galeria na própria página.</li></ol>
-          </details>
-        </div>
-      </article>
-
-      <article class="card card--offline">
-        <div class="card__cover">
-          <img src="images/bernardo-bender.svg" alt="Capa do portfólio de Bernardo Bender" loading="lazy" width="640" height="400"/>
-          <span class="badge badge--offline">Indisponível</span>
-        </div>
-        <div class="card__body">
-          <header class="card__head">
-            <h3 class="card__name">Bernardo Bender</h3>
-            
-          </header>
-          <p class="card__intro">Portfólio ainda não publicado (página retorna 404).</p>
-          
-          <span class="btn btn--disabled" aria-disabled="true">Indisponível</span>
-          
-          <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">2 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Publicar a página: o endereço retorna 404. Conferir se o GitHub Pages está ativo e se há um index.html na branch correta.</li><li>Depois de publicar, montar a estrutura mínima: lista de atividades, código em .py exibido na página e uma seção &quot;Sobre&quot;.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">5 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Restaurar o conteúdo do portfólio (recuperar do histórico do Git ou reconstruir): a versão no ar hoje é um template inacabado, sem CSS, e perdeu todo o conteúdo anterior.</li><li>Corrigir nome, curso e e-mail (a página atual exibe dados de exemplo de outra pessoa) e restabelecer a estrutura HTML completa com estilo.</li><li>Trazer o código para dentro do site (blocos copiáveis ou arquivos .py versionados), em vez de depender de links externos.</li><li>Preencher os campos de entrega (link do repositório, URL publicada e hash do commit), substituindo qualquer link de exemplo (href=&quot;#&quot;).</li><li>Transcrever os &quot;5 exercícios em papel&quot; e, se mantiver as fotos, exibi-las como galeria; se voltar a usar o Drive, padronizar as permissões para &quot;qualquer pessoa com o link&quot;.</li></ol>
           </details>
         </div>
       </article>
 
       <article class="card card--wip">
         <div class="card__cover">
-          <img src="images/kaua-santos.svg" alt="Capa do portfólio de Kauã Santos" loading="lazy" width="640" height="400"/>
+          <img src="images/bernardo-bender.svg" alt="Capa do portfólio de Bernardo Bender" loading="lazy" width="640" height="400"/>
           <span class="badge badge--wip">Em construção</span>
+        </div>
+        <div class="card__body">
+          <header class="card__head">
+            <h3 class="card__name">Bernardo Bender</h3>
+            
+          </header>
+          <p class="card__intro">Portfólio publicado com 5 entregas, mas a URL principal ainda retorna 404.</p>
+          <ul class="chips"><li class="chip" data-tech="Python">Python</li><li class="chip" data-tech="HTML">HTML</li><li class="chip" data-tech="CSS">CSS</li></ul>
+          <a class="btn" href="https://bernardobenderaluno-hue.github.io/atividadefinal/" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
+          
+          <details class="card__sug">
+            <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Renomear index2.html para index.html (ou defini-lo como página inicial): o conteúdo já existe, mas a URL principal retorna 404 porque o arquivo tem outro nome.</li><li>Corrigir os links &quot;Ver Código no GitHub&quot; para o repositório atual (atividadefinal), em vez de depender do redirecionamento do repositório antigo.</li><li>Mostrar o código .py embutido na página, em bloco copiável, além do link para o GitHub.</li><li>Adicionar nome completo e curso na seção &quot;Sobre&quot;.</li></ol>
+          </details>
+        </div>
+      </article>
+
+      <article class="card card--online">
+        <div class="card__cover">
+          <img src="images/kaua-santos.svg" alt="Capa do portfólio de Kauã Santos" loading="lazy" width="640" height="400"/>
+          <span class="badge badge--online">No ar</span>
         </div>
         <div class="card__body">
           <header class="card__head">
             <h3 class="card__name">Kauã Santos</h3>
             
           </header>
-          <p class="card__intro">Espaço criado, conteúdo do portfólio ainda em construção.</p>
-          
+          <p class="card__intro">Acervo publicado com cerca de 35 entregas da disciplina, carregadas dinamicamente.</p>
+          <ul class="chips"><li class="chip" data-tech="Python">Python</li><li class="chip" data-tech="JavaScript">JavaScript</li><li class="chip" data-tech="HTML">HTML</li><li class="chip" data-tech="CSS">CSS</li></ul>
           <a class="btn" href="https://kauasantosaluno-tech.github.io" target="_blank" rel="noopener">Abrir portfólio <span aria-hidden="true">↗</span></a>
           
           <details class="card__sug">
             <summary>Como melhorar <span class="card__sug-count">4 sugestões</span></summary>
-            <ol class="card__sug-list"><li>Personalizar a identidade: o template ainda se identifica como &quot;Diogo / Engenharia de Telecomunicações&quot;; trocar pelo nome e curso do Kauã.</li><li>Substituir os links &quot;#&quot; por conteúdo real, começando por uma atividade já feita: publicar o .py e exibir o código em bloco copiável.</li><li>Corrigir o erro de sintaxe no trecho sobre_mim.py (self] no lugar de self.), que aparece logo na vitrine.</li><li>Escrever um enunciado curto para cada projeto e adicionar um README com status honesto de &quot;em construção&quot;.</li></ol>
+            <ol class="card__sug-list"><li>Corrigir o encoding (UTF-8) dos títulos com mojibake (ex.: &quot;KauÃ£ Lopes&quot;, &quot;programaÃ§Ã£o&quot;).</li><li>Preencher a descrição de cada publicação com um enunciado curto explicando a atividade (hoje o campo está vazio).</li><li>Corrigir erros de ortografia nos títulos (&quot;análise&quot; no lugar de &quot;analize&quot;, &quot;algoritmo&quot; no lugar de &quot;algoritimo&quot;).</li><li>Remover as pastas de teste (teste, zulu) em uploads/ e organizar a galeria por atividade, já que há várias partes numeradas.</li></ol>
           </details>
         </div>
       </article>
@@ -387,8 +393,8 @@
           <span class="btn btn--disabled" aria-disabled="true">Indisponível</span>
           
           <details class="card__sug">
-            <summary>Como melhorar <span class="card__sug-count">1 sugestão</span></summary>
-            <ol class="card__sug-list"><li>Endereço sem página publicada (404): identificar o responsável e publicar o conteúdo, ou retirar este endereço da lista da turma.</li></ol>
+            <summary>Como melhorar <span class="card__sug-count">2 sugestões</span></summary>
+            <ol class="card__sug-list"><li>Confirmar se a organização &quot;Algoritmos-e-Programacao&quot; deve ser o índice da turma; se sim, publicar uma página índice nesse endereço.</li><li>Caso contrário, retirar este endereço da lista de portfólios de alunos: a organização existe mas está vazia (0 repositórios) e não corresponde a um aluno.</li></ol>
           </details>
         </div>
       </article>
@@ -450,56 +456,56 @@
           <li class="techbar">
             <span class="techbar__name" data-tech="CSS">CSS</span>
             <span class="techbar__track"><span class="techbar__fill" style="width:100%"></span></span>
-            <span class="techbar__count">13</span>
+            <span class="techbar__count">15</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="HTML">HTML</span>
             <span class="techbar__track"><span class="techbar__fill" style="width:100%"></span></span>
-            <span class="techbar__count">13</span>
+            <span class="techbar__count">15</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="Python">Python</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:77%"></span></span>
-            <span class="techbar__count">10</span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:80%"></span></span>
+            <span class="techbar__count">12</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="JavaScript">JavaScript</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:46%"></span></span>
-            <span class="techbar__count">6</span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:47%"></span></span>
+            <span class="techbar__count">7</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="IA">IA</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:23%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:20%"></span></span>
             <span class="techbar__count">3</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="C">C</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:8%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:7%"></span></span>
             <span class="techbar__count">1</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="Git">Git</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:8%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:7%"></span></span>
             <span class="techbar__count">1</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="Next.js">Next.js</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:8%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:7%"></span></span>
             <span class="techbar__count">1</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="SVG">SVG</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:8%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:7%"></span></span>
             <span class="techbar__count">1</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="Tailwind">Tailwind</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:8%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:7%"></span></span>
             <span class="techbar__count">1</span>
           </li>
           <li class="techbar">
             <span class="techbar__name" data-tech="Vercel">Vercel</span>
-            <span class="techbar__track"><span class="techbar__fill" style="width:8%"></span></span>
+            <span class="techbar__track"><span class="techbar__fill" style="width:7%"></span></span>
             <span class="techbar__count">1</span>
           </li>
       </ul>
