@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Capa do portfólio de Bernardo Bender">
   <defs>
     <linearGradient id="g-bernardo-bender" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="hsl(125 72% 56%)"/>
-      <stop offset="1" stop-color="hsl(199 72% 42%)"/>
+      <stop offset="0" stop-color="hsl(315 72% 56%)"/>
+      <stop offset="1" stop-color="hsl(29 72% 42%)"/>
     </linearGradient>
     <filter id="s-bernardo-bender" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.28"/>
     </filter>
   </defs>
   <rect width="640" height="400" fill="url(#g-bernardo-bender)"/>
-  <circle cx="598" cy="150" r="75" fill="hsl(157 85% 75%)" opacity="0.33"/>
-  <circle cx="26" cy="82" r="77" fill="hsl(257 85% 69%)" opacity="0.26"/>
-  <circle cx="593" cy="135" r="71" fill="hsl(82 85% 62%)" opacity="0.2"/>
-  <circle cx="4" cy="285" r="146" fill="hsl(80 85% 78%)" opacity="0.25"/>
-  <circle cx="396" cy="261" r="82" fill="hsl(303 85% 78%)" opacity="0.29"/>
+  <circle cx="598" cy="150" r="75" fill="hsl(347 85% 75%)" opacity="0.33"/>
+  <circle cx="26" cy="82" r="77" fill="hsl(87 85% 69%)" opacity="0.26"/>
+  <circle cx="593" cy="135" r="71" fill="hsl(272 85% 62%)" opacity="0.2"/>
+  <circle cx="4" cy="285" r="146" fill="hsl(270 85% 78%)" opacity="0.25"/>
+  <circle cx="396" cy="261" r="82" fill="hsl(133 85% 78%)" opacity="0.29"/>
   <circle cx="624" cy="342" r="2" fill="#ffffff" opacity="0.47"/>
   <circle cx="88" cy="360" r="6" fill="#ffffff" opacity="0.35"/>
   <circle cx="189" cy="61" r="5" fill="#ffffff" opacity="0.42"/>

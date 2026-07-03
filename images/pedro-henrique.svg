@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Capa do portfólio de Pedro Henrique">
   <defs>
     <linearGradient id="g-pedro-henrique" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="hsl(73 72% 56%)"/>
-      <stop offset="1" stop-color="hsl(146 72% 42%)"/>
+      <stop offset="0" stop-color="hsl(263 72% 56%)"/>
+      <stop offset="1" stop-color="hsl(336 72% 42%)"/>
     </linearGradient>
     <filter id="s-pedro-henrique" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.28"/>
     </filter>
   </defs>
   <rect width="640" height="400" fill="url(#g-pedro-henrique)"/>
-  <circle cx="160" cy="282" r="53" fill="hsl(161 85% 65%)" opacity="0.24"/>
-  <circle cx="182" cy="199" r="83" fill="hsl(10 85% 71%)" opacity="0.19"/>
-  <circle cx="98" cy="68" r="85" fill="hsl(266 85% 73%)" opacity="0.21"/>
-  <circle cx="354" cy="24" r="107" fill="hsl(173 85% 69%)" opacity="0.19"/>
-  <circle cx="592" cy="386" r="56" fill="hsl(265 85% 70%)" opacity="0.2"/>
+  <circle cx="160" cy="282" r="53" fill="hsl(351 85% 65%)" opacity="0.24"/>
+  <circle cx="182" cy="199" r="83" fill="hsl(200 85% 71%)" opacity="0.19"/>
+  <circle cx="98" cy="68" r="85" fill="hsl(96 85% 73%)" opacity="0.21"/>
+  <circle cx="354" cy="24" r="107" fill="hsl(3 85% 69%)" opacity="0.19"/>
+  <circle cx="592" cy="386" r="56" fill="hsl(95 85% 70%)" opacity="0.2"/>
   <circle cx="587" cy="29" r="6" fill="#ffffff" opacity="0.3"/>
   <circle cx="549" cy="169" r="5" fill="#ffffff" opacity="0.41"/>
   <circle cx="465" cy="106" r="4" fill="#ffffff" opacity="0.41"/>

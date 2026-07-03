@@ -25,21 +25,21 @@
     "slug": "andressa-almada",
     "nome": "Andressa Almada",
     "iniciais": "AA",
-    "curso": "",
-    "intro": "Portfólio em formato de guia, ensinando fundamentos de Python com exemplos.",
+    "curso": "Engenharia",
+    "intro": "Portfólio final com 7 atividades e questões extras, cada entrega em página própria com objetivo, código e resultados.",
     "tech": [
       "Python",
       "HTML",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ],
-    "url": "https://andressaalmadaaluno-prog.github.io/portfolio-andressa./",
+    "url": "https://andressaalmada.github.io/Portif-lio-Algoritmo-Programa-o/",
     "status": "online",
     "sugestoes": [
-      "Transformar o site num portfólio de verdade: a página publicada ainda é um tutorial genérico de Python, falta a seção \"Atividades\" com cada exercício e projeto entregues, com data e tema.",
-      "Publicar o código das próprias soluções (.py) no repositório e exibi-lo com realce de sintaxe, no lugar dos exemplos genéricos. Criar a pasta entregas/, pois os links de código previstos hoje levariam a 404.",
-      "Para cada atividade, escrever o enunciado, a abordagem usada e o resultado.",
-      "Adicionar uma seção \"Sobre\" identificando a autora, o curso e o objetivo do portfólio.",
-      "Consolidar o trabalho num único repositório/site e apontar o link do mural para essa versão, evitando a dispersão atual em vários repositórios."
+      "Dar conteúdo próprio às questões extras: os cartões 8 a 12 apenas reaproveitam os links das atividades 1, 2, 3 e 5, então quem clica não encontra a questão anunciada.",
+      "Aplicar realce de sintaxe aos blocos de código das páginas de entrega (hoje o código aparece em texto puro, sem coloração).",
+      "Publicar cada solução também como arquivo .py no repositório, além do código embutido nas páginas.",
+      "Retirar do ar ou redirecionar o site antigo do tutorial (andressaalmadaaluno-prog.github.io), para o portfólio não ficar dividido em dois endereços."
     ]
   },
   {
@@ -62,6 +62,26 @@
       "Adicionar conteúdo de reserva sem JavaScript (um <noscript> e tratamento de erro no carregamento do projects.js), para a seção não ficar presa em \"carregando projetos...\".",
       "Concluir a conversão das listas ainda em PDF (p04, p05, p06, p10, p12, p13, p14) para .py exibidos no visualizador com realce, que já existe.",
       "Transcrever os exercícios em papel (p08) para .py ou texto, mantendo o PDF como complemento."
+    ]
+  },
+  {
+    "slug": "eduardo-moura",
+    "nome": "Eduardo Moura",
+    "iniciais": "EM",
+    "curso": "",
+    "intro": "Portfólio acadêmico com 7 atividades, do catálogo esportivo à análise de treliças planas.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://eduzin-spm.github.io/Portifolio-Algoritimos",
+    "status": "online",
+    "sugestoes": [
+      "Publicar o código como .py e exibi-lo na página com realce: hoje quase tudo está em PDF, inclusive \"Código Python.pdf\" e até arquivos CSV/JSON convertidos para PDF; os scripts chatgpt.py e gemini.py da Atividade 2 mostram o caminho certo.",
+      "Renomear os arquivos sem espaços nem acentos (ex.: \"Relatório Catálogo esportivo .pdf\" tem até um espaço antes da extensão), deixando os links menos frágeis.",
+      "Adicionar uma seção \"Sobre\" com nome completo e curso (hoje o nome aparece só no rodapé) e um enunciado curto por atividade.",
+      "Trocar o título genérico \"Portfólio Acadêmico\" por um que identifique o autor e a disciplina."
     ]
   },
   {
@@ -144,6 +164,48 @@
     ]
   },
   {
+    "slug": "julia-rios",
+    "nome": "Julia Rios",
+    "iniciais": "JR",
+    "curso": "",
+    "intro": "Trabalhos organizados em quatro seções: algoritmos, vetores, engenharia e inteligência artificial.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://meus-trabalhos-de-programacao.github.io/trabalhos-programa-o",
+    "status": "online",
+    "sugestoes": [
+      "Corrigir o botão da seção \"Inteligência Artificial e Desenvolvimento\": ele aponta para engenharia/ em vez de ia/, escondendo a seção de IA que já está publicada e completa.",
+      "Corrigir o link da \"Lista de 10 exercícios da Introdução a Algoritmos\": o arquivo apontado não existe (404) e o nome sugere que era o PDF de outra atividade.",
+      "Exibir o código como texto com realce de sintaxe e publicar os .py no repositório: hoje todas as entregas estão presas em PDF.",
+      "Simplificar os nomes dos PDFs (espaços, acentos e parênteses cortados, como \"...LLMs (1.pdf\"), que tendem a gerar links quebrados.",
+      "Completar a seção \"Sobre Mim\" com curso e objetivo do portfólio."
+    ]
+  },
+  {
+    "slug": "lorena-christello",
+    "nome": "Lorena Christello",
+    "iniciais": "LC",
+    "curso": "Engenharia Mecânica",
+    "intro": "Portfólio com enunciado, datas e prazos por atividade, entregas locais e comentários dos tutores.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS",
+      "IA"
+    ],
+    "url": "https://lorenachristello-aluna.github.io/algoritmos-e-programacao/",
+    "status": "online",
+    "sugestoes": [
+      "Mostrar o código na própria página com realce de sintaxe: as resoluções estão todas em PDF na pasta documentos/; publicar também os .py no repositório.",
+      "Atualizar os campos desatualizados, como o \"Prazo de Entrega: Em breve\" da atividade 3, e revisar pequenos erros de digitação (\"Resulução\", \"Exerício\").",
+      "Padronizar os nomes dos documentos (ex.: atividade615_exercicio.pdf destoa do padrão atividadeN_*.pdf).",
+      "Dividir a página única em seções navegáveis por atividade ou adicionar um índice no topo: a home já está bem longa e seguirá crescendo."
+    ]
+  },
+  {
     "slug": "lorenzo-ximendes",
     "nome": "Lorenzo Ximendes",
     "iniciais": "LX",
@@ -185,6 +247,27 @@
       "Converter as listas de exercícios de Python ainda em PDF (A05, A09) para .py exibido como texto.",
       "Adicionar a cada cartão um trecho de enunciado (\"o que foi pedido\") e uma frase de \"o que eu fiz\".",
       "Transformar A12 e A21 em galeria com legendas e acertar a inconsistência da trilha de progresso (final entregue x itens ainda \"em andamento\")."
+    ]
+  },
+  {
+    "slug": "maria-frandalozzo",
+    "nome": "Maria Luisa Frandalozzo",
+    "iniciais": "ML",
+    "curso": "Engenharia Elétrica",
+    "intro": "Mais de 20 atividades documentadas, do diagnóstico inicial ao projeto final, com pseudocódigo e código Python embutidos.",
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "url": "https://mariafrandalozzoaluno-cpu.github.io",
+    "status": "online",
+    "sugestoes": [
+      "Escapar o caractere < nos códigos embutidos (usar &lt;): nos exercícios 11 e 15 da atividade 4 o código aparece cortado porque o navegador interpreta \"< valor\" como início de tag HTML.",
+      "Substituir o placeholder \"[Espaço Reservado para Anexar suas Imagens Laterais Depois]\" pelas imagens de execução ou removê-lo.",
+      "Versionar os .py no repositório: hoje o código existe só embutido na página e nos botões \"Baixar .PY\".",
+      "Aplicar realce de sintaxe aos blocos de código e conferir a numeração das atividades (13, 15, 21 e 23 não aparecem na lista)."
     ]
   },
   {
@@ -315,23 +398,24 @@
   },
   {
     "slug": "kaua-santos",
-    "nome": "Kauã Santos",
+    "nome": "Kauã Lopes dos Santos",
     "iniciais": "KS",
     "curso": "",
-    "intro": "Acervo publicado com cerca de 35 entregas da disciplina, carregadas dinamicamente.",
+    "intro": "Acervo com 55 arquivos em 21 atividades, com busca, visualização por pastas e executor de Python.",
     "tech": [
       "Python",
       "JavaScript",
       "HTML",
       "CSS"
     ],
-    "url": "https://kauasantosaluno-tech.github.io",
+    "url": "https://kauals001.github.io/KauaLS001.io/",
     "status": "online",
     "sugestoes": [
-      "Corrigir o encoding (UTF-8) dos títulos com mojibake (ex.: \"KauÃ£ Lopes\", \"programaÃ§Ã£o\").",
-      "Preencher a descrição de cada publicação com um enunciado curto explicando a atividade (hoje o campo está vazio).",
-      "Corrigir erros de ortografia nos títulos (\"análise\" no lugar de \"analize\", \"algoritmo\" no lugar de \"algoritimo\").",
-      "Remover as pastas de teste (teste, zulu) em uploads/ e organizar a galeria por atividade, já que há várias partes numeradas."
+      "Preencher a descrição de cada publicação com um enunciado curto explicando a atividade (o campo existe no posts.json, mas está vazio em todas as 55 entradas).",
+      "Converter os códigos entregues em PDF para .py: o site já tem visualizador com realce e até executor de Python, mas a maior parte do código segue presa em PDF.",
+      "Corrigir a ortografia nos títulos e nomes de arquivo (\"análise\" no lugar de \"analize\", \"algoritmo\" no lugar de \"algoritimo\", \"claude\" no lugar de \"cloude\").",
+      "Remover ou proteger o painel \"Admin\", hoje linkado publicamente no topo do site.",
+      "Retirar do ar ou redirecionar o endereço antigo (kauasantosaluno-tech.github.io), que continua publicado com a versão anterior do acervo."
     ]
   },
   {
